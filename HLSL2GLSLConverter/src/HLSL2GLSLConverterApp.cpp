@@ -69,8 +69,8 @@ void HLSL2GLSLConverterApp::PrintHelp()
     LOG_INFO_MESSAGE("                 ps - pixel shader");
     LOG_INFO_MESSAGE("                 gs - geometry shader");
     LOG_INFO_MESSAGE("                 ds - domain shader");
-    LOG_INFO_MESSAGE("                 hs - domain shader");
-    LOG_INFO_MESSAGE("                 cs - domain shader\n");
+    LOG_INFO_MESSAGE("                 hs - hull shader");
+    LOG_INFO_MESSAGE("                 cs - compute shader\n");
     LOG_INFO_MESSAGE("-noglsldef     Do not include glsl definitions into the converted source\n");
     LOG_INFO_MESSAGE("-nolocations   Do not use shader input/output locations qualifiers.\n"
                      "               Shader stage interface linking will rely on exact name matching.\n");
